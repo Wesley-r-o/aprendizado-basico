@@ -1,0 +1,51 @@
+/*contém todo o conteúdo de um documento HTML*/
+body {
+    height: 100vh; /* altura*/
+    margin: 0; /* margem*/
+    background: linear-gradient(darkblue, darkred); /* cor em degradê */
+    /* background é a cor de fundo de algo*/
+    display: flex; /* display flex para que as coisas fiquem em linha */
+    align-items: center; /* alinha as coisas no centro */
+    justify-content: center; /* alinha as coisas no centro */
+    font-family: Arial, sans-serif; /* familia de fontes */
+}
+
+/*contém todo o conteúdo da class*/
+.central {
+    background: white; /* background é a cor de fundo de algo*/
+    width: 300px; /* largura */
+    height: 300px; /* altura */
+    border-radius: 30px; /* arredondamento */
+    display: flex; /* display flex para que as coisas fiquem em linha */
+    /* display é pra indicar a forma como os elementos serão dispostos em espaços delimitados. */
+    align-items: center; /* alinhamento de itens */
+    justify-content: center; /* controla o alinhamento horizontal de itens dentro de um flex container. */
+    flex-direction: column; /* usada para definir a direção do eixo principal do flex container */
+    gap: 10px; /*determina o espaço entre elementos*/
+    padding: 20px; /*define o espaço entre o conteúdo de um elemento e sua borda*/
+}
+
+/*contém todo botão dentro da class*/
+.central button {
+    width: 100px;
+    background: lightblue;
+    color: black; /*cor*/
+    border: none; /*borda*/
+    border-radius: 10px;
+    font-size: 16px; /*tamanho da fonte*/
+    cursor: pointer; /* define o cursor do mouse para ser exibido quando o ponteiro estiver sobre um elemento */
+    transition: background 0.3s, color 0.3s; /*transição de algo */
+}
+ /*ao passar o mouse sobre um elemento, o elemento responde com efeitos de transição*/
+.central button:hover {
+    background: lightcyan;
+    color: darkred;
+}
+
+/*modifica o conteudo da tag img*/
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    margin-bottom: 15px; /* define a margem inferior de um elemento*/
+}
