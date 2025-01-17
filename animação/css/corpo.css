@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(/imagem/jpg.jpg) no-repeat center center fixed;
+    background-size: cover;
+    overflow: hidden;
+}
+
+#mundo {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+#chao {
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    bottom: 0;
+    background-size: cover;
+}
+
+#chao img {
+    width: 100%;
+    height: 100%;
+}
+
+#carro {
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    background: url(/imagem/carro.png) no-repeat;
+    background-size: contain;
+    bottom: 100px;
+    left: 10px;
+
+    animation: dirigir 3s linear infinite;
+}
+
+@keyframes dirigir {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(90vw);
+    }
+}
