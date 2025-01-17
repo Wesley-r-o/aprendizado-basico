@@ -1,0 +1,120 @@
+/* Estilo para Red Dead Redemption 2 */
+.classarea1 {
+    background: linear-gradient(red, orange, black);
+    padding: 20px;
+}
+
+.classarea1 h1 {
+    color: white;
+    text-align: center;
+    font-size: 60px;
+}
+
+.classarea1 hr {
+    background: gold;
+    width: 50%;
+    height: 5px;
+    margin: 10px auto;
+}
+
+.classarea1 p {
+    color: white;
+    width: 50%;
+    text-align: justify;
+    margin: 10px auto;
+}
+
+.classimagem {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+#vidred {
+    width: 50%;
+    display: block;
+    margin: 20px auto;
+    border-radius: 20px;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+/* Estilo para God of War */
+.classarea2 {
+    background: linear-gradient(white, blue, black);
+    padding: 20px;
+}
+
+.classarea2 h1 {
+    color: rgb(30, 30, 119);
+    text-align: center;
+    font-size: 60px;
+}
+
+.classarea2 hr {
+    background: blueviolet;
+    width: 50%;
+    height: 5px;
+    margin: 10px auto;
+}
+
+.classarea2 p {
+    width: 50%;
+    text-align: justify;
+    margin: 10px auto;
+}
+
+.classimg {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+#vidgow {
+    width: 50%;
+    display: block;
+    margin: 20px auto;
+    border-radius: 20px;
+}
+
+/* Estilo para The Last of Us */
+.classarea3 {
+    background: linear-gradient(rgb(250, 229, 189), rgb(246, 194, 99), black);
+    padding: 20px;
+}
+
+.classarea3 h1 {
+    color: black;
+    text-align: center;
+    font-size: 60px;
+}
+
+.classarea3 hr {
+    background: yellowgreen;
+    width: 50%;
+    height: 5px;
+    margin: 10px auto;
+}
+
+.classarea3 p {
+    width: 50%;
+    text-align: justify;
+    margin: 10px auto;
+}
+
+.classimag {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+#vidtlu {
+    width: 50%;
+    display: block;
+    margin: 20px auto;
+    border-radius: 20px;
+}
