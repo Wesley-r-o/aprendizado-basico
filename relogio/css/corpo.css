@@ -1,0 +1,40 @@
+body {
+    background: url('/imagem/batman.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.central {
+    width: 400px;
+    height: 150px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 60px;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.central div {
+    width: 100px;
+    height: 100px;
+    background: rgba(255, 255, 255, 0.5);
+    color: green;
+    border-radius: 50%;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.central span {
+    color: white;
+    font-size: 50px;
+}
